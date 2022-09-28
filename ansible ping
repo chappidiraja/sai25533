@@ -1,0 +1,9 @@
+ansible ping setup
+    1  vi  /tmp/99.pem
+    2  chmod 700 /tmp/99.pem
+    3  yum install ansible
+    4   sudo amazon-linux-extras install ansible2
+    5  ansible --version
+    6  vi /etc/ansible/hosts
+    7  ansible all -m ping
+    8  history
